@@ -8,6 +8,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>discorverin larvarle</title>
+    <style>body {background-color: pink} </style>
 </head>
 <body>
     <h1>THE GLAMOROUS, GLAMOROUS<h1>
