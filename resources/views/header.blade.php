@@ -1,3 +1,9 @@
 @section('top')
-<p>Header</p>
+<header>
+    <ul>
+        <li>
+            HEADER
+        </li>
+    </ul>
+</header>
 @endsection
