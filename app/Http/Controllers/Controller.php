@@ -15,4 +15,13 @@ class Controller extends BaseController
     {
         return view('hello');
     }
+    public function header() {
+        return view('header');
+    }
+    public function form() {
+        return view('form');
+    }
+    public function footer() {
+        return view('footer');
+    }
 }

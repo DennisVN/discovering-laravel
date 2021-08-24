@@ -21,4 +21,9 @@ Route::get ('/greeting', function() {
     return 'Hello World';
 });
 
+Route::get('/header', function(){
+    return view('header');
+});
+
 Route::get('/hello-sjaakie', [\App\Http\Controllers\Controller::class, 'helloSjaakie']);
+Route::get('/header', [\App\Http\Controllers\Controller::class, 'header']);
