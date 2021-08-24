@@ -8,10 +8,18 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>discorverin larvarle</title>
-    <style>body {background-color: pink} </style>
+    <style>body {background-color: pink; text-align: center;} </style>
 </head>
 <body>
-    <h1>THE GLAMOROUS, GLAMOROUS<h1>
-        <p>popping champagne, up in the sky</p>
+    <h2>✈️ If you ain't got no money take yo' broke ass home✈️ <br>
+    You say: If you ain't got no money take yo'broke ass home<br>
+    🥂G-L-A-M-O-R-O-U-S🥂<br> yeah G-L-A-M-O-R-O-U-S</h2><br>
+<form> 
+  <div class="form-group">
+    <label for="form">Who created this highly intelligent masterpiece ?</label>
+    <input type="text" class="form-control text-center" id="form" placeholder="Enter Fergie">
+    <small id="emailHelp" class="form-text text-muted">We'll never mock Fergie with anyone else.</small>
+  </div>
+</form>
 </body>
 </html>
