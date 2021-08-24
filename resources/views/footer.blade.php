@@ -1,4 +1,9 @@
 @section('bottom')
-<p>Footer</p>
-@endsection
+<header>
+    <ul>
+        <li>
+            FOOTER
+        </li>
+    </ul>
+</header>
 
