@@ -1,0 +1,3 @@
+@extends ('template')
+
+Hallo mama
