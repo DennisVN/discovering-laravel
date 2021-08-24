@@ -11,8 +11,11 @@
     <style>body {background-color: pink; text-align: center;} </style>
 </head>
 <body>
-  <h1><a href="/header">Header here</h1>
-    <h1><a href="/form">Form here</h1>
-        <h1><a href="/footer">Footer here</h1>
+  @include ('header')
+  
+
+  @section ('body')
+  @show
+
 </body>
 </html>
