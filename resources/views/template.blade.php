@@ -12,10 +12,12 @@
 </head>
 <body>
   @include ('header')
-  
+
 
   @section ('body')
   @show
+
+  @include ('footer')
 
 </body>
 </html>
