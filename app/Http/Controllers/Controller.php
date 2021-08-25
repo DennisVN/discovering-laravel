@@ -13,6 +13,9 @@ class Controller extends BaseController
 
 
     public function home () {
+        //TODO : model
+        //TODO : query
+
         return view ('home');
     }
 
