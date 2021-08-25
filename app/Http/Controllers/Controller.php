@@ -20,4 +20,10 @@ class Controller extends BaseController
     {
         return view('hello');
     }
+
+    public function postView()
+    {
+        dd(request()->input('Fergie'));
+        return view('home');
+    }
 }

@@ -16,6 +16,9 @@
 
   @section ('body')
   @show
+  
+  @section ('form')
+  @show
 
   @include ('footer')
 

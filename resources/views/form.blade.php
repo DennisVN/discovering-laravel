@@ -1,4 +1,5 @@
-@section('form')
+@extends('home')
+@section ('form')
 
 <h2>✈️ If you ain't got no money take yo' broke ass home✈️ <br>
     You say: If you ain't got no money take yo'broke ass home<br>
