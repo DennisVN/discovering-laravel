@@ -6,6 +6,7 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
+use App\Models\Learner;
 
 class Controller extends BaseController
 {
@@ -13,8 +14,10 @@ class Controller extends BaseController
 
 
     public function home () {
-        //TODO : model
+        //DONCE : model
         //TODO : query
+        $learners = Learner::get();
+        dd($learners);
 
         return view ('home');
     }
