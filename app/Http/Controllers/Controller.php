@@ -16,8 +16,8 @@ class Controller extends BaseController
     public function home () {
         //DONCE : model
         //TODO : query
-        $learners = Learner::get();
-        dd($learners);
+       /* $learners = Learner::get();
+        dd($learners);*/
 
         return view ('home');
     }
