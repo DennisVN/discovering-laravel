@@ -16,9 +16,7 @@ class Controller extends BaseController
     public function home () {
         //DONCE : model
         //TODO : query
-       /* $learners = Learner::get();
-        dd($learners);*/
-
+        /*$learners = Learner::get();*/
         return view ('home');
     }
 
@@ -29,7 +27,7 @@ class Controller extends BaseController
 
     public function postView()
     {
-        dd(request()->input('Fergie'));
+        /*dd(request()->input('Fergie'));*/
         return view('home');
     }
 }
