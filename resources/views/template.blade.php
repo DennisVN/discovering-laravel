@@ -13,13 +13,9 @@
 <body>
   @include ('header')
 
-
   @section ('body')
   @show
   
-  @section ('form')
-  @show
-
   @include ('footer')
 
 </body>
