@@ -2,11 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Learner;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
-use App\Models\Learner;
+
 
 
 class Controller extends BaseController
@@ -26,13 +27,18 @@ class Controller extends BaseController
         return view('hello');
     }
 
-    public function postView()
-    {
-        /*dd(request()->input('Fergie'));*/
-        return view('home');
-    }
     public function form ()
     {
         return view('form');
+
+    }
+
+    public function postView()
+    {
+        $fergie = Learner::get('fergie');
+        //$attributes=(request()->input('Fergie'));
+        $attributes = request()->only($fergie);
+        $learner = Learner::create($attributes);
+        return request()->only($fergie);
     }
 }

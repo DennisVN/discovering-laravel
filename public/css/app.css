@@ -50,3 +50,23 @@ a:visited {
 a:hover {
     text-decoration: underline;
 }
+
+.form-container {
+    position: fixed;
+    top: 30%;
+    left: 27%;
+}
+.text-container {
+    font-size: 1.5rem;
+    text-align: center;
+    justify-self: center;
+    color: rgba(0, 0, 0, 0.713);
+}
+.form-container {
+    font-size: 1.5rem;
+}
+form {
+    text-align: center;
+    justify-self: center;
+    color: rgba(0, 0, 0, 0.528);
+}
