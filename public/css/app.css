@@ -4,4 +4,17 @@ body{
     text-align: center;
 }
 
+header {
+    color: aqua;
+    font-size: 4rem;
+}
+
+footer {
+    color : red;
+}
+a {
+    color: black;
+    font-size: 2rem;
+}
+
 
