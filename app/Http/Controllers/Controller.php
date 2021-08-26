@@ -41,4 +41,12 @@ class Controller extends BaseController
         $learner = Learner::create($attributes);
         return request()->only($fergie);
     }
+
+    public function database ()
+    {
+        $learners = Learner::get();
+        return($learners);
+        //dd($learners);
+        return view ('database');
+    }
 }

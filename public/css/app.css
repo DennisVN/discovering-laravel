@@ -33,6 +33,9 @@ footer {
     top: 40%;
     left: 40%;
 }
+a {
+    color: hotpink;
+}
 
 ul li{
     display: inline-table;
