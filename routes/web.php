@@ -15,4 +15,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [\App\Http\Controllers\Controller::class, 'home']);
 Route::get('/hello-sjaakie', [\App\Http\Controllers\Controller::class, 'helloSjaakie']);
+Route::get('form', [\App\Http\Controllers\Controller::class, 'form']);
 Route::post('register', [\App\Http\Controllers\Controller::class, 'postView']);
